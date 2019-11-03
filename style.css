@@ -1,4 +1,5 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -40,7 +41,8 @@ main {
     border-top-color: rgb(180, 156, 156);
 }
 
-.popular-text, .recent-text {
+.popular-text,
+.recent-text {
     width: 90%;
     margin: auto;
 }
@@ -54,7 +56,7 @@ main {
     flex: 1;
 }
 
-.movie-row {
+.row {
     display: flex;
     width: 90%;
     margin: auto;
@@ -65,24 +67,31 @@ main {
     width: 250px;
 }
 
-.movie-box{
+.movie-main {
+    width: 350px;
+}
+
+.movie-box {
     text-decoration: none;
     text-align: left;
 }
 
-.movie-title{
+.movie-title {
     text-decoration: none;
     color: black;
-    font-weight: bold;;
+    font-weight: bold;
 }
 
-.recent-text{
-        border-top-width: 1px;
-        border-top-style: solid;
-        border-top-color: rgb(180, 156, 156);
+div.movie-text {
+    flex: 0.5;
+
 }
 
-@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+.recent-text {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(180, 156, 156);
+}
 
 fieldset,
 label {
@@ -94,9 +103,45 @@ body {
     margin: 20px;
 }
 
-h1 {
-    font-size: 1.5em;
-    margin: 10px;
+.movie-main {
+    margin-top: 20px;
+}
+
+.movie-text h1 {
+    font-weight: 900;
+}
+
+.movie-text h4 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.movie-text h5 {
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.info {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.crew {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.tableCell a{
+    text-decoration: none;
+    color: black;
+}
+
+.trailer{
+    flex: 1;
+}
+
+.reviews{
+    flex: 1;
 }
 
 /****** Style Star Rating Widget *****/

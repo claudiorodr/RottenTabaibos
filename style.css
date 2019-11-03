@@ -154,7 +154,7 @@ main {
   
   /* Set a style for the submit/register button */
   .registerbtn {
-    background-color: #4CAF50;
+    background-color:rgb(221, 55, 55);
     color: white;
     padding: 16px 20px;
     margin: 8px 0;
@@ -178,3 +178,33 @@ main {
     background-color: #f1f1f1;
     text-align: center;
   }
+  /*----------------------------------------------*/
+
+  .avatar-container{
+    text-align: center; 
+    margin: 24px 0 12px 0; 
+  }
+  img.avatar { 
+    width: 50%; 
+}
+.loginbtn{
+    background-color: rgb(221, 55, 55);
+    color: white;
+    padding: 20px 20px;
+    margin: 8px 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+} 
+.login-container{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.psw, .reg{
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}

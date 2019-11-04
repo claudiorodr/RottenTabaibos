@@ -18,6 +18,20 @@ header {
     display: flex;
 }
 
+#quick-search-input {
+    width: 250px;
+    height: 35px;
+    font-size: .85em;
+    font-weight: 700;
+    color: #424242;
+    border: 2px solid rgb(43, 42, 42);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    padding: 4px 30px;
+    background: #ffffff url(icon-search.svg) no-repeat 9px 8px;
+}
+
 .logo-container {
     flex: 2;
 }
@@ -35,10 +49,10 @@ nav {
     list-style: none;
 }
 
-main {
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: rgb(180, 156, 156);
+header {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(180, 156, 156);
 }
 
 .popular-text,
@@ -58,9 +72,8 @@ main {
 
 .row {
     display: flex;
-    width: 90%;
+    width: 80%;
     margin: auto;
-
 }
 
 .movie {
@@ -83,7 +96,7 @@ main {
 }
 
 div.movie-text {
-    flex: 0.5;
+    flex: 0.8;
 
 }
 
@@ -92,6 +105,32 @@ div.movie-text {
     border-top-style: solid;
     border-top-color: rgb(180, 156, 156);
 }
+
+.line {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(180, 156, 156);
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.actors div {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.avatar-thumb {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.list-cast {
+    display: flex;
+    align-items: center;
+}
+
 
 fieldset,
 label {
@@ -127,22 +166,24 @@ body {
 }
 
 .crew {
-    margin-top: 40px;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 70px;
 }
 
-.tableCell a{
+.tableCell a {
     text-decoration: none;
     color: black;
 }
 
-.trailer{
+.trailer {
     flex: 1;
 }
 
-.reviews{
+.reviews {
     flex: 1;
 }
+
+
 
 /****** Style Star Rating Widget *****/
 
